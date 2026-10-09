@@ -1,0 +1,6 @@
+# Verified working versions in rdkit_aidd (Python 3.11.16)
+# Core Agent, offline Mini Demo and unit tests
+
+numpy==2.4.6
+pandas==3.0.6
+requests==2.34.2

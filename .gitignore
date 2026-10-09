@@ -1,0 +1,70 @@
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Python / Conda environments
+.venv/
+venv/
+env/
+conda-env/
+*.egg-info/
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Scientific datasets and calculated outputs
+data/
+results/
+docking/
+models/
+reports/
+
+# Figures, notebooks and auxiliary research files
+# Review before selectively publishing.
+figures/
+notebooks/
+md/
+
+# Extracted external research data
+tools/chem_data_extracted/
+
+# Large binary models
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Runtime logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Historical Python code backups
+*_backup.py
+*_before*.py
+
+# Historical code versions not used by the current Agent
+egfr_agent/*_backup_v*.py
+egfr_agent/*_v1.py
+
+# Historical research scripts
+scripts/*_OLD.py
+scripts/*_before*.py
+scripts/*_backup.py

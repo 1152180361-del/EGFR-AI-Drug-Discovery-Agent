@@ -1,0 +1,12 @@
+# Additional dependencies for the research scripts
+# Does not install AutoDock Vina or external executables.
+
+-r requirements.txt
+
+biopython==1.88
+joblib==1.6.0
+matplotlib==3.11.2
+rdkit==2026.3.6
+scipy==1.17.1
+scikit-learn==1.9.1
+tqdm==4.70.1
